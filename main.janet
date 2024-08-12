@@ -67,7 +67,7 @@
          [:div {:class "indent"}
           "Everyone is hiring, but no one's paying"]]] # close ul
        [:div {:id "footer"}
-        [:a {:href "https://github.com/snltd/meetup-generator-clojure"}
+        [:a {:href "https://github.com/snltd/meetup-generator-janet"}
          "The code"]]]]]))
 
 (def app (-> (handler)
